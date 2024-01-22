@@ -13,9 +13,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+        <!-- extra color -->
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                    'btn-color':'#FF4240'
+                  }
+                }
+              }
+            }
+          </script>
     <!-- style -->
     <style>
-        .font-manrope {
+        .font-manrope{
             font-family: 'Manrope', sans-serif;
         }
     </style>
@@ -60,13 +73,13 @@
                     </div>
                     <div class="navbar-end">
                         <img src="Images/Frame.png" alt="">
-                        <a class="btn bg-[#FF4240] text-white gap: 10px px-6 font-bold ml-6">Get Ticket</a>
+                        <a class="btn bg-btn-color text-white gap: 10px px-6 font-bold ml-6">Get Ticket</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- tropy section -->
-        <section class="container mx-auto my-auto">
+        <section class="container mx-auto my-auto mt-11">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="Images/1.png" class="w-full" />
@@ -100,7 +113,73 @@
         </section>
     </header>
     <main>
-
+        <!-- card section -->
+        <section class="container mx-auto my-auto mt-32">
+            <div class="font-manrope ">
+                <h1 class="font-extrabold text-4xl text-[#131318] flex items-center justify-center">Professional Hockeys Club</h1>
+                <p class="font-medium flex items-center justify-center mt-10">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+                    <br>
+                     dolor. Purus urna in sit nullam proin. </p>
+                     <div class="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                        <!-- 1st card -->
+                        <div class="card  p-4  bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] ">
+                            <figure class="px-10 pt-10">
+                              <img src="Images/Group 9.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title text-xl font-semibold">
+                                Prayer Facility
+                            </h2>
+                              <p class="text-base p-color">
+                                Amet consectetur. Condimentum dignissim adipiscing .
+                            </p>
+                            </div>
+                          </div>
+                        <!-- 2 card -->
+                        <div class="card  p-4  bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] ">
+                            <figure class="px-10 pt-10">
+                              <img src="Images/circle 2.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title text-xl font-semibold">
+                                Experienced Coach
+                            </h2>
+                              <p class="text-base p-color">
+                                Amet consectetur. Condimentum dignissim adipiscing .
+                            </p>
+                            </div>
+                          </div>
+                        <!-- 3 card -->
+                        <div class="card  p-4  bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] ">
+                            <figure class="px-10 pt-10">
+                              <img src="Images/circle 3.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title text-xl font-semibold">
+                                Senior Player
+                            </h2>
+                              <p class="text-base p-color">
+                                Amet consectetur. Condimentum dignissim adipiscing .
+                            </p>
+                            </div>
+                          </div>
+                        <!-- 4 card -->
+                        <div class="card  p-4  bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] ">
+                            <figure class="px-10 pt-10">
+                              <img src="Images/circle 4.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title text-xl font-semibold">
+                                Training Ground
+                            </h2>
+                              <p class="text-base p-color">
+                                Amet consectetur. Condimentum dignissim adipiscing .
+                            </p>
+                            </div>
+                          </div>
+                    </div>
+            </div>
+        </section>
     </main>
     <footer>
 
